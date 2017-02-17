@@ -1,0 +1,56 @@
+{
+  "name": "mocha-reporter-examples",
+  "version": "0.0.2",
+  "description": "Language-helper middleware for Express web server.",
+  "main": "./src/reporter.js",
+  "scripts": {
+    "test": "`npm bin`/mocha",
+    "lint": "`npm bin`/eslint ./",
+    "coverage": "`npm bin`/istanbul cover `npm bin`/_mocha -- --reporter min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volebo/express-mw-lang.git"
+  },
+  "keywords": [
+    "mocha",
+    "reporter",
+    "mocha-reporter",
+    "example",
+    "examples",
+    "volebo",
+    "volebo.net"
+  ],
+  "author": {
+    "name": "Volebo",
+    "url": "https://dev.volebo.net"
+  },
+  "contributors": [
+    {
+      "name": "Koryukov Maksim",
+      "email": "maxkoryukov@gmail.com"
+    }
+  ],
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=3.0.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volebo/mocha-reporter-examples/issues"
+  },
+  "homepage": "https://github.com/volebo/mocha-reporter-examples#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.1.1",
+    "eslint-config-volebo": "^2.1.2",
+    "istanbul": "^0.4.4",
+    "supertest": "^2.0.0"
+  },
+  "peerDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
